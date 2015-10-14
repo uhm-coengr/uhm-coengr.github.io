@@ -1,8 +1,19 @@
 @import 'plugins/plugins-dir'
 @import 'modules/modules-dir'
 
-.cards
-  padding-top: 20px
+// color palette   be.com/create/color-wheel/?base=2&rule=Compound&selected=0&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.8,0.5567788052998498,0.11450980392156858,0.6,0.4814505389676613,0.26588235294117646,1,0.40784313725490196,0.043137254901960784,0.29313725490196074,1,0.8159989204469926,0.11450980392156858,0.8,0.4275556780094378&swatchOrder=0,1,2,3,4
 
+
+
+body
+  +outer-container
+    
 .intro
-  padding-top: 30px
+  $margin: 20px
+  +padding(30px $margin null $margin)
+  
+.cards
+  +padding(20px null null null)
+  
+.card
+  +span-columns(4)

@@ -594,10 +594,29 @@ html {
       content: '';
       display: block; }
 
+body {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.intro {
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-left: 20px; }
+
 .cards {
   padding-top: 20px; }
 
-.intro {
-  padding-top: 30px; }
+.card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .card:last-child {
+    margin-right: 0; }
 
 /*# sourceMappingURL=app.css.map */
