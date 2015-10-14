@@ -1,10 +1,4 @@
 @charset "UTF-8";
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
   background-color: #477dca;
@@ -181,6 +175,12 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 .footer-2 {
   background: #315240;
   padding: 1.5em;
@@ -288,8 +288,8 @@ picture {
             max-width: 40%; } }
 
 .centered-navigation {
-  background-color: #E7F1EC;
-  border-bottom: 1px solid #d4e6dd;
+  background-color: #CC8E1D;
+  border-bottom: 1px solid #b17b19;
   min-height: 60px;
   width: 100%;
   z-index: 9999; }
@@ -352,7 +352,7 @@ picture {
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
   .centered-navigation ul li.nav-link {
-    background: #E7F1EC;
+    background: #CC8E1D;
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -451,14 +451,14 @@ picture {
             border-bottom-right-radius: 3px;
             padding-bottom: .7em; } }
       .centered-navigation ul.submenu li a {
-        background-color: #ddebe4;
+        background-color: #bf851b;
         display: inline-block;
         text-align: right;
         text-decoration: none;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
           .centered-navigation ul.submenu li a {
-            background-color: #E7F1EC;
+            background-color: #CC8E1D;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
@@ -593,5 +593,11 @@ picture {
       left: 0px;
       content: '';
       display: block; }
+
+.cards {
+  padding-top: 20px; }
+
+.intro {
+  padding-top: 30px; }
 
 /*# sourceMappingURL=app.css.map */
